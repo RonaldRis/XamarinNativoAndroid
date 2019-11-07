@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	
+	<RatingBar
+		android:id="@+id/RatingBAR"
+		android:numStars="5"
+		android:stepSize="1"
+		android:rating="4.0"
+		android:layout_height="wrap_content"
+		android:layout_weight="wrap_content"
+		/>
+	<RatingBar
+		android:id="@+id/ratingBarSample1"
+		android:layout_width="wrap_content"
+		android:layout_height="100dp"
+		android:numStars="4"
+		android:stepSize="1.0"
+		android:rating="2.0"
+		android:layout_marginBottom="37.0dp" />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Hello World! " />
+	<RatingBar
+        android:id="@+id/ratingBarSample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="4"
+        android:stepSize="1.0"
+        android:rating="2.0" />
+	<TextView
+		android:text="Ingrese el número de telefono"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/lblTelefono"
+	/>
+	
+	<EditText
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="1-600-xamarin"
+		android:id="@+id/txtTelefono" />
+
+	<Button
+		android:text="Convertir"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/black"
+		android:id="@+id/btnConvertir"
+	/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:text="Hello World! " 
+		android:id="@+id/lblConvertido"
+	/>
+	<SeekBar
+		android:id="@+id/seekBar1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		 />
+	<CalendarView
+		date
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/calendarView1" />
+</LinearLayout>
